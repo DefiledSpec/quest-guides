@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+	font-family: 'Roboto';
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	/* max-width:100%; */
+}
+
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+tr{
+	border: 1px solid black;
+}
+
+input, select {
+	margin: .5em;
+}
+label {
+	display: block;
+
+}
+table {
+	border-collapse: collapse;
+}
+td {
+	border: 1px solid black;
+	padding: .55em .25em;
+	margin: 0;
+}
+thead > tr {
+	text-align: center;
+}
+
+tbody > tr:last-child {
+	text-align: center;
+}
+
+/*  */
